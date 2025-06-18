@@ -26,15 +26,15 @@ export const TicketTable = () => {
                         </div>
                         </div>
                     </td>
-                    <td className='px-[31px] py-[24px]'>
+                    <td className=' py-[24px]'>
                         <h2 className='text-[14px] text-[#252733] font-semibold'>{item.name}</h2>
                         <p className='text-[#C5C7CD] font-normal text-[12px]'>{item.createdAt}</p>
                     </td>
-                    <td className='px-[31px] py-[24px]'>
+                    <td className=' py-[24px]'>
                         <h2 className='text-[#252733] text-[14px] font-semibold'>{item.flightDate}</h2>
                         <p className='text-[#C5C7CD] font-normal text-[12px]'>{item.flightTime}</p>
                     </td>
-                    <td className='px-[31px] py-[24px]'>
+                    <td className=' py-[24px]'>
                         <Priority id={item.priorityId}/>
                     </td>
                 </tr>
