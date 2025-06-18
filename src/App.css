@@ -3,6 +3,7 @@
 
 body{
   overflow: hidden;
+  background-color: rgba(55, 81, 255, 4%);
 }
 
 .active{

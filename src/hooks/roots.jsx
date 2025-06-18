@@ -107,3 +107,29 @@ export const pageRouteList = [
         element: <Subscription/>
     },
 ]
+
+export const userList = [
+    {
+        id: 1,
+        imgURL: "https://i.pinimg.com/736x/77/61/2f/77612fbea977eda7c95a7126ff04e2bf.jpg",
+        message: "Contact Email not Linked",
+        updatedAt: "Updated 1 day ago",
+        name: "Tom Cruise",
+        createdAt: "on 24.05.2019",
+        flightDate: "May 26, 2019",
+        flightTime: "6:30 PM",
+        priorityId: 3
+    },
+    {
+        id: 2,
+        imgURL: "https://i.pinimg.com/736x/77/61/2f/77612fbea977eda7c95a7126ff04e2bf.jpg",
+        message: "Adding Images to Featured Posts",
+        updatedAt: "Updated 1 day ago",
+        name: "Matt Damon",
+        createdAt: "on 24.05.2019",
+        flightDate: "May 26, 2019",
+        flightTime: "8:00 AM",
+        priorityId: 1
+    },
+
+]
