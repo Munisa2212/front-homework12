@@ -1,5 +1,6 @@
 import React from 'react'
 import { userList } from '../hooks/roots'
+import Priority from '../components/priority'
 
 
 export const TicketTable = () => {
@@ -33,7 +34,9 @@ export const TicketTable = () => {
                         <h2 className='text-[#252733] text-[14px] font-semibold'>{item.flightDate}</h2>
                         <p className='text-[#C5C7CD] font-normal text-[12px]'>{item.flightTime}</p>
                     </td>
-                    <td className='px-[31px] py-[24px]'>{item.priorityId}</td>
+                    <td className='px-[31px] py-[24px]'>
+                        <Priority id={item.priorityId}/>
+                    </td>
                 </tr>
             ))}
         </tbody>
